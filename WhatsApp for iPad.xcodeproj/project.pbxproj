@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C6C4357202BAD7600AE39BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6C4356202BAD7600AE39BD /* AppDelegate.swift */; };
+		8C6C4359202BAD7600AE39BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6C4358202BAD7600AE39BD /* ViewController.swift */; };
+		8C6C435C202BAD7600AE39BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C6C435A202BAD7600AE39BD /* Main.storyboard */; };
+		8C6C435F202BAD7600AE39BD /* WhatsApp_for_iPad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C6C435D202BAD7600AE39BD /* WhatsApp_for_iPad.xcdatamodeld */; };
+		8C6C4361202BAD7600AE39BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C6C4360202BAD7600AE39BD /* Assets.xcassets */; };
+		8C6C4364202BAD7600AE39BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C6C4362202BAD7600AE39BD /* LaunchScreen.storyboard */; };
+		8C6C436F202BAD7600AE39BD /* WhatsApp_for_iPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6C436E202BAD7600AE39BD /* WhatsApp_for_iPadTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C6C436B202BAD7600AE39BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C6C434B202BAD7600AE39BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C6C4352202BAD7600AE39BD;
+			remoteInfo = "WhatsApp for iPad";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C6C4353202BAD7600AE39BD /* WhatsApp for iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WhatsApp for iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C6C4356202BAD7600AE39BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C6C4358202BAD7600AE39BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C6C435B202BAD7600AE39BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C6C435E202BAD7600AE39BD /* WhatsApp_for_iPad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WhatsApp_for_iPad.xcdatamodel; sourceTree = "<group>"; };
+		8C6C4360202BAD7600AE39BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C6C4363202BAD7600AE39BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C6C4365202BAD7600AE39BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C6C436A202BAD7600AE39BD /* WhatsApp for iPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WhatsApp for iPadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C6C436E202BAD7600AE39BD /* WhatsApp_for_iPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsApp_for_iPadTests.swift; sourceTree = "<group>"; };
+		8C6C4370202BAD7600AE39BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C6C4350202BAD7600AE39BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C6C4367202BAD7600AE39BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C6C434A202BAD7600AE39BD = {
+			isa = PBXGroup;
+			children = (
+				8C6C4355202BAD7600AE39BD /* WhatsApp for iPad */,
+				8C6C436D202BAD7600AE39BD /* WhatsApp for iPadTests */,
+				8C6C4354202BAD7600AE39BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C6C4354202BAD7600AE39BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C6C4353202BAD7600AE39BD /* WhatsApp for iPad.app */,
+				8C6C436A202BAD7600AE39BD /* WhatsApp for iPadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C6C4355202BAD7600AE39BD /* WhatsApp for iPad */ = {
+			isa = PBXGroup;
+			children = (
+				8C6C4356202BAD7600AE39BD /* AppDelegate.swift */,
+				8C6C4358202BAD7600AE39BD /* ViewController.swift */,
+				8C6C435A202BAD7600AE39BD /* Main.storyboard */,
+				8C6C4360202BAD7600AE39BD /* Assets.xcassets */,
+				8C6C4362202BAD7600AE39BD /* LaunchScreen.storyboard */,
+				8C6C4365202BAD7600AE39BD /* Info.plist */,
+				8C6C435D202BAD7600AE39BD /* WhatsApp_for_iPad.xcdatamodeld */,
+			);
+			path = "WhatsApp for iPad";
+			sourceTree = "<group>";
+		};
+		8C6C436D202BAD7600AE39BD /* WhatsApp for iPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C6C436E202BAD7600AE39BD /* WhatsApp_for_iPadTests.swift */,
+				8C6C4370202BAD7600AE39BD /* Info.plist */,
+			);
+			path = "WhatsApp for iPadTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C6C4352202BAD7600AE39BD /* WhatsApp for iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C6C4373202BAD7600AE39BD /* Build configuration list for PBXNativeTarget "WhatsApp for iPad" */;
+			buildPhases = (
+				8C6C434F202BAD7600AE39BD /* Sources */,
+				8C6C4350202BAD7600AE39BD /* Frameworks */,
+				8C6C4351202BAD7600AE39BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WhatsApp for iPad";
+			productName = "WhatsApp for iPad";
+			productReference = 8C6C4353202BAD7600AE39BD /* WhatsApp for iPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C6C4369202BAD7600AE39BD /* WhatsApp for iPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C6C4376202BAD7600AE39BD /* Build configuration list for PBXNativeTarget "WhatsApp for iPadTests" */;
+			buildPhases = (
+				8C6C4366202BAD7600AE39BD /* Sources */,
+				8C6C4367202BAD7600AE39BD /* Frameworks */,
+				8C6C4368202BAD7600AE39BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C6C436C202BAD7600AE39BD /* PBXTargetDependency */,
+			);
+			name = "WhatsApp for iPadTests";
+			productName = "WhatsApp for iPadTests";
+			productReference = 8C6C436A202BAD7600AE39BD /* WhatsApp for iPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C6C434B202BAD7600AE39BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Intrinzic Studios";
+				TargetAttributes = {
+					8C6C4352202BAD7600AE39BD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8C6C4369202BAD7600AE39BD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8C6C4352202BAD7600AE39BD;
+					};
+				};
+			};
+			buildConfigurationList = 8C6C434E202BAD7600AE39BD /* Build configuration list for PBXProject "WhatsApp for iPad" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C6C434A202BAD7600AE39BD;
+			productRefGroup = 8C6C4354202BAD7600AE39BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C6C4352202BAD7600AE39BD /* WhatsApp for iPad */,
+				8C6C4369202BAD7600AE39BD /* WhatsApp for iPadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C6C4351202BAD7600AE39BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6C4364202BAD7600AE39BD /* LaunchScreen.storyboard in Resources */,
+				8C6C4361202BAD7600AE39BD /* Assets.xcassets in Resources */,
+				8C6C435C202BAD7600AE39BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C6C4368202BAD7600AE39BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C6C434F202BAD7600AE39BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6C4359202BAD7600AE39BD /* ViewController.swift in Sources */,
+				8C6C4357202BAD7600AE39BD /* AppDelegate.swift in Sources */,
+				8C6C435F202BAD7600AE39BD /* WhatsApp_for_iPad.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C6C4366202BAD7600AE39BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6C436F202BAD7600AE39BD /* WhatsApp_for_iPadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C6C436C202BAD7600AE39BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C6C4352202BAD7600AE39BD /* WhatsApp for iPad */;
+			targetProxy = 8C6C436B202BAD7600AE39BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C6C435A202BAD7600AE39BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C6C435B202BAD7600AE39BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C6C4362202BAD7600AE39BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C6C4363202BAD7600AE39BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C6C4371202BAD7600AE39BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C6C4372202BAD7600AE39BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C6C4374202BAD7600AE39BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6C772W7PXR;
+				INFOPLIST_FILE = "WhatsApp for iPad/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.intrinzic.main.WhatsApp-for-iPad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C6C4375202BAD7600AE39BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6C772W7PXR;
+				INFOPLIST_FILE = "WhatsApp for iPad/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.intrinzic.main.WhatsApp-for-iPad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C6C4377202BAD7600AE39BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6C772W7PXR;
+				INFOPLIST_FILE = "WhatsApp for iPadTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.intrinzic.main.WhatsApp-for-iPadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatsApp for iPad.app/WhatsApp for iPad";
+			};
+			name = Debug;
+		};
+		8C6C4378202BAD7600AE39BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6C772W7PXR;
+				INFOPLIST_FILE = "WhatsApp for iPadTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.intrinzic.main.WhatsApp-for-iPadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatsApp for iPad.app/WhatsApp for iPad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C6C434E202BAD7600AE39BD /* Build configuration list for PBXProject "WhatsApp for iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C6C4371202BAD7600AE39BD /* Debug */,
+				8C6C4372202BAD7600AE39BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C6C4373202BAD7600AE39BD /* Build configuration list for PBXNativeTarget "WhatsApp for iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C6C4374202BAD7600AE39BD /* Debug */,
+				8C6C4375202BAD7600AE39BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C6C4376202BAD7600AE39BD /* Build configuration list for PBXNativeTarget "WhatsApp for iPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C6C4377202BAD7600AE39BD /* Debug */,
+				8C6C4378202BAD7600AE39BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8C6C435D202BAD7600AE39BD /* WhatsApp_for_iPad.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8C6C435E202BAD7600AE39BD /* WhatsApp_for_iPad.xcdatamodel */,
+			);
+			currentVersion = 8C6C435E202BAD7600AE39BD /* WhatsApp_for_iPad.xcdatamodel */;
+			path = WhatsApp_for_iPad.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8C6C434B202BAD7600AE39BD /* Project object */;
+}
