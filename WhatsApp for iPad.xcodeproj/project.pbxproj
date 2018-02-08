@@ -79,11 +79,9 @@
 		8C6C4355202BAD7600AE39BD /* WhatsApp for iPad */ = {
 			isa = PBXGroup;
 			children = (
-				8C6C4356202BAD7600AE39BD /* AppDelegate.swift */,
+				8C6C4397202BBD2400AE39BD /* Supporting Files */,
 				8C6C4358202BAD7600AE39BD /* ViewController.swift */,
 				8C6C435A202BAD7600AE39BD /* Main.storyboard */,
-				8C6C4360202BAD7600AE39BD /* Assets.xcassets */,
-				8C6C4362202BAD7600AE39BD /* LaunchScreen.storyboard */,
 				8C6C4365202BAD7600AE39BD /* Info.plist */,
 				8C6C435D202BAD7600AE39BD /* WhatsApp_for_iPad.xcdatamodeld */,
 			);
@@ -97,6 +95,16 @@
 				8C6C4370202BAD7600AE39BD /* Info.plist */,
 			);
 			path = "WhatsApp for iPadTests";
+			sourceTree = "<group>";
+		};
+		8C6C4397202BBD2400AE39BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C6C4356202BAD7600AE39BD /* AppDelegate.swift */,
+				8C6C4360202BAD7600AE39BD /* Assets.xcassets */,
+				8C6C4362202BAD7600AE39BD /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,6 +368,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6C772W7PXR;
 				INFOPLIST_FILE = "WhatsApp for iPad/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.intrinzic.main.WhatsApp-for-iPad";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -375,6 +384,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6C772W7PXR;
 				INFOPLIST_FILE = "WhatsApp for iPad/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.intrinzic.main.WhatsApp-for-iPad";
 				PRODUCT_NAME = "$(TARGET_NAME)";
